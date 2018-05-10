@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* style the form */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #66d9ff;
+}
+
+/* style the form background */
+.formbg{
+        border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Header/logo Title */
+.header {
+    
+    padding: 200px;
+    background:url("file:/E:/assign-3/webcode.jpg");
+    background-size:cover;    
+    
+    
+    
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: #66d9ff;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #262626;
+    color: white;
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color:#262626;
+    padding: 20px;
+    color:white;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color:#262626;
+    padding: 20px;
+    color:white;
+}
+
+/* style the classes for different div elements */
+.img5 {
+    background:url("file:/E:/assign-3/my_pic.jpg");
+    background-size:cover;
+    box-shadow: 0px 3px 20px 2px #ff6600;
+    border-radius:5px;
+    width: 100%;
+    padding: 20px;
+}
+
+.img1{
+   
+   background:url("file:/E:/assign-3/datamining.jpg");
+   background-size:cover;
+   box-shadow: 0px 3px 20px 2px #00bfff;
+   border-radius:10px;
+   width:100%;
+   padding:20px;
+}
+
+.img2{
+      
+   background:url("file:/E:/assign-3/responsive.jpg");
+   background-size:cover;
+   box-shadow: 0px 3px 20px 2px #00bfff;
+   border-radius:10px;
+   width:100%;
+   padding:20px;
+}
+
+.img3{
+   background:url("file:/E:/assign-3/sketch.jpg");
+   background-size:cover;
+   width:100%;
+   padding:20px;
+   margin-top:100px;
+}
+.img4{
+   background:url("file:/E:/assign-3/basketball.jpg");
+   background-size:cover;
+   width:100%;
+   padding:20px;
+}
+
+.icon-group {
+  margin-top: 20px; }
+  .icon-group .icon {
+    margin-right: 10px;
+    width: 25px; }
+
+/* Footer */
+.footer {
+    padding: 80px;
+    text-align: center;
+    background: #ddd;
+}
+
+@media screen and (max-width: 450px) {
+.side , .main{
+  width:100%;
+  }
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div class="header">
+  
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">PORTFOLIO</a>
+  <a href="#A1">ABOUT</a>
+  <a href="#A2">PROJECTS</a>
+  <a href="#A3">CONTACT</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+      <h2 id="A1">About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="img5" style="height:400px;"></div>
+      <h2 style="text-align:center;">SUMIT JAIN</h2>
+      <h3 style="text-align:center;">FULL STACK WEB DEVELOPER</h3>
+      <P>My name is sumit jain.I have completed my B.tech in computer science and Engineering.I have a passion for web development so i enjoy learning new technologies like node.js,angular,jquery and mongo DB
+         that are a crucial part of web designing.I’ve always sought out opportunities and challenges that are meaningful to me.As a web developer, 
+         I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. 
+         That's why I’m excited to make a big impact at a high growth company.</p>
+<p>my hobbies are sketching,listening Music and playing basketball.whenever i find myself free from the daily routine monotonous life i play basketball with my
+friends.
+        
+      
+      
+      <div class="img3" style="height:400px;"></div><br>
+      <div class="img4" style="height:400px;"></div><br>
+      
+  </div>
+  <div class="main">
+      <h2>INTERSESTS</h2>
+      <h4>TECHNOLOGIES OF INTERSETS:</h4>
+      <div class="img1" style="height:400px;"></div>
+      <p>As a sofware Engineer i enjoy programming so i have a basic knowledge of various programming languages like<strong> C,C++,java</strong> etc.I also have interest in mobile
+       app development so i have basic knowledge of Android as well.During my final year of B.tech i made a project which is based on android.Now currently i am
+       learning web technologies like <strong>HTML,CSS,JAVASCRIPT,JQUERY,NODE.JS,ANGULAR</strong> etc.In future i want to learn new technologies like 
+      <strong>Artificial Intelligence, Machine Learning, Data mining, Big Data etc.  </p>
+      
+     
+      <h2 id="A2">PROJECTS</h2>
+      
+      <div class="img2" style="height:400px;"></div>
+      <p>Since i have just started my journey to become a web developer i am still in the learning phase so i dont have much projects to showcase on my portfolio,
+          this portfolio website that i have developed is my first project in web development. This website is an example of responsive web design.in this i have used
+     <strong>Media Queries</strong> as a result when the screen is less than 700px wide, the two columns stack on top of each other instead of next to each other. 
+         resize the browser window to see the responsive effect.</p>
+      <br>
+     <p id="A3">Lets get in touch,Send me a message:<p>
+      <div class="formbg">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Email..">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..">
+    
+    <label for="message">Message</label>
+    <input type="text" id="message" name="message" placeholder="Message..">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+<h2>CONTACT</h2>
+   <div class="icon-group">
+                    <img src="file:/E:/assign-3/outlook.png" class="icon">
+                    <img src="file:/E:/assign-3/twitter.png" class="icon">
+                    <img src="file:/E:/assign-3/linkedin.png" class="icon">
+                    <img src="file:/E:/assign-3/instagram.png" class="icon">
+                </div>
+</div>
+
+</body>
+</html>
